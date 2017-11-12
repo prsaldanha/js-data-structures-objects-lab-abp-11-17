@@ -1,7 +1,8 @@
-var driver = {};
+var driver = {name: Sam};
 
 function updateDriverWithKeyAndValue(driver, key, value)
 {
+  
   return Object .assign(...driver, {name: key, address: value});
 
 }
